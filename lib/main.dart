@@ -18,7 +18,7 @@ var row = Row(
   // crossAxisAlignment: CrossAxisAlignment.center,
   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
   children: [
-    test,
+    Expanded(child: test),
     Flexible(
       fit: FlexFit.tight,
       flex: 2,
